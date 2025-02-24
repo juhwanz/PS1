@@ -8,17 +8,15 @@ public class _037 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int M = Integer.parseInt(st.nextToken());
         int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
 
         int[] A = new int[N+1];
-        for(int i =0; i <N+1; i++){
-            A[i]=i;
-        }
+        for(int i =0; i<N+1; i++) A[i] = i;
 
-        for(int i = 2; i<=Math.sqrt(N);i++){
+        for(int i =2; i<=Math.sqrt(N); i++){
             if(A[i]==0) continue;
-            for(int j = i+i; j< N; j=j+i){
+            for(int j = i+i; j<M; j=j+i){
                 A[j]=0;
             }
         }
@@ -27,4 +25,5 @@ public class _037 {
             if(A[i]!=0) System.out.println(A[i]);
         }
     }
+
 }
