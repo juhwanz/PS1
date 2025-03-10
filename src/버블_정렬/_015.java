@@ -1,3 +1,5 @@
+package 버블_정렬;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

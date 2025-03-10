@@ -1,3 +1,5 @@
+package 플로이드워셜;
+
 import java.io.*;
 import java.util.*;
 

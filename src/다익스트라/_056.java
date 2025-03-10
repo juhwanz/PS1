@@ -1,3 +1,5 @@
+package 다익스트라;
+
 import java.io.*;
 import java.util.*;
 

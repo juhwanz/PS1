@@ -1,3 +1,5 @@
+package 유니온파인드;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

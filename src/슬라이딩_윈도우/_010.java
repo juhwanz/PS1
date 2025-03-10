@@ -1,3 +1,5 @@
+package 슬라이딩_윈도우;
+
 import java.io.*;
 import java.util.Deque;
 import java.util.LinkedList;
