@@ -2,7 +2,6 @@ import java.io.*;
 import java.util.*;
 
 public class BOJ9012 {
-    static String[] str;
     static Stack<Character> stack;
 
     public static void main(String[] args) throws IOException {
